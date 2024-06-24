@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+googletrans==4.0.0-rc1
+httpcore==0.13.3
+httpx==0.18.2
