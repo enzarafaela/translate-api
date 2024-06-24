@@ -1,4 +1,6 @@
 fastapi
+uvicorn
 deep_translator
-httpcore
-httpx
+httpcore==0.13.3
+httpx==0.18.2
+pydantic
