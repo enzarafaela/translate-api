@@ -1,4 +1,4 @@
 fastapi
-googletrans
+deep_translator
 httpcore
 httpx
