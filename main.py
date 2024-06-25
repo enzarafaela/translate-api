@@ -11,7 +11,7 @@ class TextToTranslate(BaseModel):
 
 @app.post("/translate/")
 async def translate_text(item: TextToTranslate):
-    tradutor = GoogleTranslator(source= "en", target= item.target_language)
+    tradutor = GoogleTranslator(source= "auto", target= item.target_language)
     traducao = tradutor.translate(item.text)
     return {"translated_text": traducao}
 
